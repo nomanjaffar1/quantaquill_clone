@@ -1,6 +1,7 @@
-def main():
-    print("Hello from quantaquill-clone!")
-
+# main.py
+from manager.coordinator import Coordinator
 
 if __name__ == "__main__":
-    main()
+    topic = input("Enter research topic: ")
+    coordinator = Coordinator()
+    coordinator.run_pipeline(topic)
