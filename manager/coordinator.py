@@ -4,6 +4,7 @@ from agents.writing_agent import WritingAgent
 from agents.citation_agent import CitationAgent
 from symbolic.knowledge_graph import KnowledgeGraph
 from symbolic.graph_rules import validate_graph
+import os  # Add this at the top of coordinator.py
 
 class Coordinator:
     def __init__(self):
@@ -16,7 +17,7 @@ class Coordinator:
         print("\n🔍 [Step 1] Researching...")
         self.research_agent.execute(topic)
 
-        print("\n🖋 [Step 2] Writing draft sections...")
+        print("\n🖋 [Step 2] Writing structured sections...")
         sections = self.writing_agent.execute(topic)
 
         print("\n📚 [Step 3] Adding citations...")
@@ -25,7 +26,7 @@ class Coordinator:
         print("\n🔗 [Step 4] Building Knowledge Graph...")
         self.build_knowledge_graph(sections)
 
-        print("\n📄 [Step 5] Assembling final paper...")
+        print("\n📄 [Step 5] Assembling full paper...")
         self.assemble_final_paper()
 
         print("\n📝 [Step 6] Exporting PDF...")
@@ -35,22 +36,31 @@ class Coordinator:
         from validators.paper_validator import generate_validation_report
         generate_validation_report()
 
-        print("\n✅ All steps completed! Check the 'output/' folder.")
+        print("\n✅ All steps completed! Check 'output/' folder.")
+
+    
 
     def assemble_final_paper(self):
-        with open("output/abstract.md", "r", encoding="utf-8") as f:
-            abstract = f.read()
-        with open("output/introduction.md", "r", encoding="utf-8") as f:
-            introduction = f.read()
-        with open("output/references.md", "r", encoding="utf-8") as f:
-            references = f.read()
+        section_files = [
+            "output/abstract.md",
+            "output/introduction.md",
+            "output/methodology.md",
+            "output/experiments.md",
+            "output/conclusion.md",
+            "output/references.md"
+        ]
 
-        full_paper = f"# Full Paper\n\n{abstract}\n\n{introduction}\n\n{references}"
+        combined_content = "# Full Paper\n\n"
+        for file in section_files:
+            if os.path.exists(file):
+                with open(file, "r", encoding="utf-8") as f:
+                    combined_content += f.read() + "\n\n"
 
         with open("output/full_paper.md", "w", encoding="utf-8") as f:
-            f.write(full_paper)
+            f.write(combined_content)
 
         print("✅ Full paper assembled at output/full_paper.md")
+
 
     def export_pdf(self):
         input_file = "output/full_paper.md"

@@ -20,7 +20,7 @@
             "Jörn Wilms"
         ],
         "url": "http://arxiv.org/abs/2507.19482v1",
-        "summary": "Here is a 2-line summary of the abstract:\n\nThe Fermi Large Area Telescope detected a gamma-ray flare from the high-redshift blazar GB6 B1428+4217, which was followed up with multi-wavelength observations revealing an anomalous soft X-ray spectrum and a polarization fraction of 8% in the R band. The flare is thought to be caused by the injection of a hard-spectrum electron population in the emission region, and its Compton-dominated spectral energy distribution and extreme luminosity are consistent with expectations from the blazar sequence."
+        "summary": "Here is a 2-line summary of the scientific abstract:\n\nThe Fermi Large Area Telescope detected a gamma-ray flare from the high-redshift blazar GB6 B1428+4217, which was followed up with multi-wavelength observations revealing a Compton-dominated spectral energy distribution and a hard X-ray flux enhancement. The flare's origin is attributed to the injection of a hard-spectrum electron population in the emission region, making it a prototypical MeV blazar with implications for understanding jet physics in the early Universe."
     },
     {
         "title": "HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars",
@@ -35,7 +35,7 @@
             "Junxuan Li"
         ],
         "url": "http://arxiv.org/abs/2507.19481v1",
-        "summary": "Here is a 2-line summary of the abstract:\n\nThe authors propose a new model for generating 3D head avatars that explicitly accounts for the compositionality of the face and hair, allowing for more effective separation and transfer of components between avatars. The model is trained using a paired dataset of hair and hairless captures and can be fine-tuned in a few-shot manner using monocular captures to create high-fidelity 3D head avatars for unseen subjects."
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe authors propose a new approach to generating 3D head avatars that explicitly accounts for the compositionality of face and hair, allowing for more flexible and controllable swapping of face and hairstyle. The model is trained using a paired dataset of hair and hairless captures, and can be fine-tuned in a few-shot manner using monocular captures to create high-fidelity 3D head avatars for unseen subjects."
     },
     {
         "title": "Tracers of the ionization fraction in dense and translucent molecular gas: II. Using mm observations to constrain ionization fraction across Orion B",
@@ -74,6 +74,6 @@
             "Pierre-Antoine Thouvenin"
         ],
         "url": "http://arxiv.org/abs/2507.19480v1",
-        "summary": "Here is a 2-line summary of the abstract:\n\nThe ionization fraction (f_e) in the Orion B giant molecular cloud was estimated by analyzing various molecular lines in the 3-4 mm range, revealing a range of values from 10^-5.5 to 10^-4 in translucent gas and 10^-8 to 10^-6 in dense gas. The ionization fraction is sensitive to the far-ultraviolet radiation field and gas density, with different line ratios providing consistent estimates of f_e in different environments."
+        "summary": "Here is a 2-line summary of the scientific abstract:\n\nThe ionization fraction (f_e) in interstellar gas is estimated by analyzing molecular lines in the 3-4 mm range, revealing ranges of 10^-5.5 to 10^-4 in translucent gas and 10^-8 to 10^-6 in dense gas. The ionization fraction is sensitive to the far-ultraviolet radiation field and gas density, with different line ratios yielding consistent values in translucent gas and recommended ratios for dense gas."
     }
 ]
