@@ -1,0 +1,117 @@
+[
+    {
+        "title": "Deep Convolutional Spiking Neural Networks for Image Classification",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThis study aims to implement a spiking convolutional neural network (CNN) using TensorFlow to investigate its behavior, learning capabilities, and potential for reducing power usage. The research focuses on the effects of various parameters on learning and addresses issues such as catastrophic forgetting and weight initialization in the context of R-STDP and MNIST/N-MNIST datasets.",
+        "authors": [
+            "Ruthvik Vaila",
+            "John Chiasson",
+            "Vishal Saxena"
+        ],
+        "published": "2019-03-28",
+        "url": "http://arxiv.org/abs/1903.12272v2"
+    },
+    {
+        "title": "Continual One-Shot Learning of Hidden Spike-Patterns with Neural Network Simulation Expansion and STDP Convergence Predictions",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe paper presents a constructive algorithm that enables one-shot learning of hidden spike patterns in a competitive detection task using spike-timing-dependent plasticity and lateral inhibition. The algorithm can also learn new patterns introduced after long intervals, and is developed using simulation expansion concepts to simulate the exchange of neurons between a simulated neural network and a larger hypothetical neural system.",
+        "authors": [
+            "Toby Lightheart",
+            "Steven Grainger",
+            "Tien-Fu Lu"
+        ],
+        "published": "2017-08-30",
+        "url": "http://arxiv.org/abs/1708.09072v1"
+    },
+    {
+        "title": "Integration of continuous-time dynamics in a spiking neural network simulator",
+        "summary": "Here is a 2-line summary of the abstract:\n\nA new simulation framework combines biologically grounded spiking neurons and functionally inspired rate-based units, allowing for multi-scale modeling and validation of mean-field approaches. The framework enables instantaneous and delayed interactions between rate-based models in a spiking network simulator, demonstrating its broad applicability through various examples from the literature.",
+        "authors": [
+            "Jan Hahne",
+            "David Dahmen",
+            "Jannis Schuecker",
+            "Andreas Frommer",
+            "Matthias Bolten",
+            "Moritz Helias",
+            "Markus Diesmann"
+        ],
+        "published": "2016-10-31",
+        "url": "http://arxiv.org/abs/1610.09990v1"
+    },
+    {
+        "title": "A Comprehensive Review of Spiking Neural Networks: Interpretation, Optimization, Efficiency, and Best Practices",
+        "summary": "Here is a 2-line summary of the abstract:\n\nBiological neural networks continue to inspire advancements in neural network performance, but energy-efficient spiking neural networks have been under-investigated despite their potential for low-power applications. This review summarizes recent developments in optimizing and evaluating spiking neural networks for energy efficiency, accuracy, and interpretation.",
+        "authors": [
+            "Kai Malcolm",
+            "Josue Casco-Rodriguez"
+        ],
+        "published": "2023-03-19",
+        "url": "http://arxiv.org/abs/2303.10780v2"
+    },
+    {
+        "title": "Closed-form control with spike coding networks",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe authors develop a new approach to control using spiking neural networks (SNNs) that combines the theory of Spike Coding Networks with closed-form optimal estimation and control, enabling robust and efficient control of complex systems. This approach does not require learning or optimization, making it suitable for deployment on low-power on-chip controllers with biologically realistic activity patterns.",
+        "authors": [
+            "Filip S. Slijkhuis",
+            "Sander W. Keemink",
+            "Pablo Lanillos"
+        ],
+        "published": "2022-12-25",
+        "url": "http://arxiv.org/abs/2212.12887v2"
+    },
+    {
+        "title": "Indisputable facts when implementing spiking neuron networks",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe authors aim to clarify the technical aspects of spike-timing coding in spiking neuron networks, focusing on deterministic dynamics and non-stochastic mappings to provide a simple and concrete review. The goal is to help researchers understand the biological plausibility and computational efficiency of spiking neuron networks and avoid implementing unnecessary or artificial mechanisms.",
+        "authors": [
+            "Bruno Cessac",
+            "H\u00e9l\u00e8ne Paugam-Moisy",
+            "Thierry Vi\u00e9ville"
+        ],
+        "published": "2009-03-20",
+        "url": "http://arxiv.org/abs/0903.3498v1"
+    },
+    {
+        "title": "SparseProp: Efficient Event-Based Simulation and Training of Sparse Recurrent Spiking Neural Networks",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe authors introduce SparseProp, a novel algorithm that efficiently simulates and trains sparse Spiking Neural Networks (SNNs) by reducing computational cost from O(N) to O(log(N)) per network spike. This allows for numerically exact simulations of large SNNs and their efficient training using backpropagation through time, with a speed-up exceeding four orders of magnitude compared to previous event-based implementations.",
+        "authors": [
+            "Rainer Engelken"
+        ],
+        "published": "2023-12-28",
+        "url": "http://arxiv.org/abs/2312.17216v1"
+    },
+    {
+        "title": "SpikiLi: A Spiking Simulation of LiDAR based Real-time Object Detection for Autonomous Driving",
+        "summary": "Here is a 2-line summary of the abstract:\n\nSpiking Neural Networks (SNNs) are a new approach that promises improved power efficiency, computation efficiency, and processing latency by mimicking biological neurons. This work demonstrates the applicability of SNNs to a complex task, 3D object detection for automated driving, and simulates spiking behavior using a pre-trained convolutional neural network with equivalent run-time and accuracy on a GPU.",
+        "authors": [
+            "Sambit Mohapatra",
+            "Thomas Mesquida",
+            "Mona Hodaei",
+            "Senthil Yogamani",
+            "Heinrich Gotzig",
+            "Patrick Mader"
+        ],
+        "published": "2022-06-06",
+        "url": "http://arxiv.org/abs/2206.02876v1"
+    },
+    {
+        "title": "Sparsifying Spiking Networks through Local Rhythms",
+        "summary": "Here is a 2-line summary of the abstract:\n\nSpiking neural networks can eliminate the transmission of values close to zero using local information, reducing energy consumption while maintaining accuracy. This novel approach leverages biologically observed spiking rhythms to optimize communication and computation in these networks.",
+        "authors": [
+            "Wilkie Olin-Ammentorp"
+        ],
+        "published": "2023-04-30",
+        "url": "http://arxiv.org/abs/2305.10191v1"
+    },
+    {
+        "title": "Brain-inspired Graph Spiking Neural Networks for Commonsense Knowledge Representation and Reasoning",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThis study explores how spiking neural networks can represent commonsense knowledge and complete related reasoning tasks, inspired by the grandmother-cell hypothesis in neuroscience. By integrating population encoding and spiking timing-dependent plasticity mechanisms, the researchers developed a spiking neural network that achieves comparable accuracy and faster convergence speed than traditional graph convolutional neural networks.",
+        "authors": [
+            "Hongjian Fang",
+            "Yi Zeng",
+            "Jianbo Tang",
+            "Yuwei Wang",
+            "Yao Liang",
+            "Xin Liu"
+        ],
+        "published": "2022-07-11",
+        "url": "http://arxiv.org/abs/2207.05561v1"
+    }
+]

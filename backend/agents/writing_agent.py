@@ -120,17 +120,11 @@ Include:
         response = chain.invoke({})
         return self.clean_text(response.content)
 
-    def execute(self, topic):
-        # Load research data
+    def execute(self, topic, user_methodology=None, user_experiments=None):
         with open("data/research_output.json", "r", encoding="utf-8") as f:
             research_data = json.load(f)
 
         research_summary_text = "\n".join([f"- {p['title']}: {p['summary']}" for p in research_data])
-
-        print("\n(Optional) Enter details for Methodology section (press Enter to skip):")
-        user_methodology = input().strip()
-        print("\n(Optional) Enter details for Experiments section (press Enter to skip):")
-        user_experiments = input().strip()
 
         # Generate all sections
         abstract = self.generate_section("abstract", topic, research_summary_text)
@@ -139,6 +133,7 @@ Include:
         experiments = self.generate_section("experiments", topic, research_summary_text, user_experiments)
         results = self.generate_section("results", topic, research_summary_text)
         conclusion = self.generate_section("conclusion", topic, research_summary_text)
+
 
         # Save sections
         os.makedirs("output", exist_ok=True)

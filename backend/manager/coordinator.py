@@ -14,14 +14,14 @@ class Coordinator:
         self.citation_agent = CitationAgent()
         self.kg = KnowledgeGraph()
 
-    def run_pipeline(self, topic):
+    def run_pipeline(self, topic, user_methodology=None, user_experiments=None):
         print("\n🔍 [Step 1] Researching...")
         self.research_agent.execute(topic)
 
         print("\n🖋 [Step 2] Writing structured sections...")
-        sections = self.writing_agent.execute(topic)
+        sections = self.writing_agent.execute(topic, user_methodology, user_experiments)
 
-        print("\n📚 [Step 3] Adding citations...")
+        print("\n📚 [Step 3] Adding initial citations...")
         self.citation_agent.execute()
 
         print("\n🔗 [Step 4] Building Knowledge Graph and validating...")
@@ -33,11 +33,8 @@ class Coordinator:
         print("\n📝 [Step 6] Exporting PDF...")
         self.export_pdf()
 
-        print("\n✅ [Step 7] Validation Report...")
-        from validators.paper_validator import generate_validation_report
-        generate_validation_report()
+        return "output/full_paper.pdf"
 
-        print("\n✅ All steps completed! Check 'output/' folder.")
 
     def assemble_final_paper(self):
         section_files = [

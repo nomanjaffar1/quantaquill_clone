@@ -1,0 +1,2 @@
+# Abstract
+This study investigates the application of spiking neural networks (SNNs) for biological neural simulation, with a focus on their behavior, learning capabilities, and potential for reducing power usage. We implement a deep convolutional SNN using TensorFlow and explore the effects of various parameters on learning, addressing issues such as catastrophic forgetting and weight initialization. Our demonstrate the potential of SNNs for efficient and accurate neural simulation, with implications for the development of low-power neural networks.
