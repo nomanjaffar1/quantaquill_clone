@@ -1,79 +1,52 @@
 [
     {
-        "title": "The most distant $γ$-ray flare to date: a multiwavelength campaign on the $z = 4.715$ blazar GB6 B1428+4217",
-        "abstract": "In November 2023, the Fermi Large Area Telescope detected a $\\gamma$-ray\nflare from the high-redshift blazar GB6 B1428+4217 ($z=4.715$). We initiated a\nmulti-wavelength follow-up campaign involving Swift, NuSTAR, the Sierra Nevada\nand Perkins Observatories, and the Effelsberg 100-m radio telescope. This\nsource, also known as 5BZQ J1430+4204, has shown an anomalous soft X-ray\nspectrum in previous observations, including possible ionized absorption\nfeatures or signatures of bulk Comptonization of thermal electrons, which are\nalso detected during the flaring episode. Simultaneous optical data revealed a\npolarization fraction of ${\\sim}8$\\% in the R band, confirming that synchrotron\nemission dominated over thermal emission from the accretion disk. The hard\nX-ray flux was enhanced during the flare. Modeling of the broadband spectral\nenergy distribution suggests that the high-energy component is dominated by\nCompton scattering by external seed photons from the accretion disk. The origin\nof the flare is consistent with the injection of a hard-spectrum electron\npopulation in the emission region. With a $\\gamma$-ray luminosity among the top\n5% of flaring events, GB6 B1428+4217 exemplifies a prototypical MeV blazar. Its\nCompton-dominated SED and extreme luminosity are in line with expectations from\nthe blazar sequence. High-redshift flares like this are critical for\nunderstanding jet physics in the early Universe and may improve detection\nprospects with future missions such as COSI.",
-        "authors": [
-            "Andrea Gokus",
-            "Manel Errando",
-            "Ivan Agudo",
-            "Markus Böttcher",
-            "Florian Eppel",
-            "Juan Escudero Pedrosa",
-            "Jonas Heßdörfer",
-            "Svetlana Jorstad",
-            "Matthias Kadler",
-            "Alex Kraus",
-            "Michael Kreter",
-            "Felicia McBride",
-            "Daniel Morcuende",
-            "Jorge Otero-Santos",
-            "Jörn Wilms"
-        ],
-        "url": "http://arxiv.org/abs/2507.19482v1",
-        "summary": "Here is a 2-line summary of the scientific abstract:\n\nThe Fermi Large Area Telescope detected a gamma-ray flare from the high-redshift blazar GB6 B1428+4217, which was followed up with multi-wavelength observations revealing a Compton-dominated spectral energy distribution and a hard X-ray flux enhancement. The flare's origin is attributed to the injection of a hard-spectrum electron population in the emission region, making it a prototypical MeV blazar with implications for understanding jet physics in the early Universe."
+        "title": "Defining neurosymbolic AI",
+        "summary": "Here is a 2-line summary of the abstract:\n\nNeurosymbolic AI aims to combine learning and reasoning by integrating logical and neural representations, but lacks a formal definition. The authors introduce a new definition that defines neurosymbolic inference as the computation of an integral over a product of a logical and a belief function.",
+        "url": "http://arxiv.org/abs/2507.11127v1"
     },
     {
-        "title": "HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars",
-        "abstract": "We present a universal prior model for 3D head avatars with explicit hair\ncompositionality. Existing approaches to build generalizable priors for 3D head\navatars often adopt a holistic modeling approach, treating the face and hair as\nan inseparable entity. This overlooks the inherent compositionality of the\nhuman head, making it difficult for the model to naturally disentangle face and\nhair representations, especially when the dataset is limited. Furthermore, such\nholistic models struggle to support applications like 3D face and hairstyle\nswapping in a flexible and controllable manner. To address these challenges, we\nintroduce a prior model that explicitly accounts for the compositionality of\nface and hair, learning their latent spaces separately. A key enabler of this\napproach is our synthetic hairless data creation pipeline, which removes hair\nfrom studio-captured datasets using estimated hairless geometry and texture\nderived from a diffusion prior. By leveraging a paired dataset of hair and\nhairless captures, we train disentangled prior models for face and hair,\nincorporating compositionality as an inductive bias to facilitate effective\nseparation. Our model's inherent compositionality enables seamless transfer of\nface and hair components between avatars while preserving identity.\nAdditionally, we demonstrate that our model can be fine-tuned in a few-shot\nmanner using monocular captures to create high-fidelity, hair-compositional 3D\nhead avatars for unseen subjects. These capabilities highlight the practical\napplicability of our approach in real-world scenarios, paving the way for\nflexible and expressive 3D avatar generation.",
-        "authors": [
-            "Byungjun Kim",
-            "Shunsuke Saito",
-            "Giljoo Nam",
-            "Tomas Simon",
-            "Jason Saragih",
-            "Hanbyul Joo",
-            "Junxuan Li"
-        ],
-        "url": "http://arxiv.org/abs/2507.19481v1",
-        "summary": "Here is a 2-line summary of the abstract:\n\nThe authors propose a new approach to generating 3D head avatars that explicitly accounts for the compositionality of face and hair, allowing for more flexible and controllable swapping of face and hairstyle. The model is trained using a paired dataset of hair and hairless captures, and can be fine-tuned in a few-shot manner using monocular captures to create high-fidelity 3D head avatars for unseen subjects."
+        "title": "Reasoning in Neurosymbolic AI",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe chapter describes a simple energy-based neurosymbolic AI system that can represent and reason formally about any propositional logic formula, combining learning from data and knowledge with logical reasoning. The system addresses challenges of data efficiency, fairness, and safety of Large Language Models and promotes the principled integration of reasoning and learning in deep networks.",
+        "url": "http://arxiv.org/abs/2505.20313v1"
     },
     {
-        "title": "Tracers of the ionization fraction in dense and translucent molecular gas: II. Using mm observations to constrain ionization fraction across Orion B",
-        "abstract": "The ionization fraction ($f_\\mathrm{e}=n_\\mathrm{e}/n_\\mathrm{H}$) is a\ncrucial parameter of interstellar gas, yet estimating it requires deep\nknowledge of molecular gas chemistry and observations of specific lines, such\nas those from isotopologs like HCO$^+$ and N$_2$H$^+$, which are detectable\nonly in dense cores. Previous challenges in constraining $f_\\mathrm{e}$ over\nlarge areas stemmed from the limitations of observational tracers and chemical\nmodels. Recent models have identified molecular line ratios that can trace\n$f_\\mathrm{e}$ in different environments within molecular clouds. In this\nstudy, we analyze various molecular lines in the 3-4 mm range to derive the\nionization fraction across the Orion B giant molecular cloud. We focus on dense\nand translucent gas, exploring variations with gas density ($n$) and the\nfar-ultraviolet (FUV) radiation field ($G_0$). Our findings show that the\nionization fraction ranges from $10^{-5.5}$ to $10^{-4}$ in translucent gas and\n$10^{-8}$ to $10^{-6}$ in dense gas. Notably, $f_\\mathrm{e}$ is sensitive to\n$G_0$ in dense, UV-illuminated regions, decreasing with increasing volume\ndensity ($f_\\mathrm{e} \\propto n^{-0.227}$ for dense and $f_\\mathrm{e} \\propto\nn^{-0.3}$ for translucent gas) and increasing with $G_0$. In translucent gas,\ndiffering line ratios yield consistent fe values, indicating the importance of\nelectron excitation of HCN and HNC. For dense gas, we recommend using the\nCN(1-0)/N$_2$H$^+$(1-0) ratio for upper limits on fe and\nC$^{18}$O(1-0)/HCO$^+$(1-0) for lower limits. In translucent environments,\nCCH(1-0)/HNC(1-0) effectively traces $f_\\mathrm{e}$. The higher fe values in\ntranslucent gas align with the C$^+$/CI/CO transition, while values in dense\ngas are adequate for coupling with the magnetic field.",
-        "authors": [
-            "Ivana Bešlić",
-            "Maryvonne Gerin",
-            "Viviana V. Guzmán",
-            "Emeric Bron",
-            "Evelyne Roueff",
-            "Javier R. Goicoechea",
-            "Jérôme Pety",
-            "Franck Le Petit",
-            "Simon Coudé",
-            "Lucas Einig",
-            "Helena Mazurek",
-            "Jan H. Orkisz",
-            "Pierre Palud",
-            "Miriam G. Santa-Maria",
-            "Léontine Ségal",
-            "Antoine Zakardjian",
-            "Sébastien Bardeau",
-            "Pierre Chainais",
-            "Karine Demyk",
-            "Victor de Souza Magalhaes",
-            "Pierre Gratier",
-            "Annie Hughes",
-            "David Languignon",
-            "François Levrier",
-            "Jacques Le Bourlot",
-            "Dariusz C. Lis",
-            "Harvey S. Liszt",
-            "Nicolas Peretto",
-            "Antoine Roueff",
-            "Albrecht Sievers",
-            "Pierre-Antoine Thouvenin"
-        ],
-        "url": "http://arxiv.org/abs/2507.19480v1",
-        "summary": "Here is a 2-line summary of the scientific abstract:\n\nThe ionization fraction (f_e) in interstellar gas is estimated by analyzing molecular lines in the 3-4 mm range, revealing ranges of 10^-5.5 to 10^-4 in translucent gas and 10^-8 to 10^-6 in dense gas. The ionization fraction is sensitive to the far-ultraviolet radiation field and gas density, with different line ratios yielding consistent values in translucent gas and recommended ratios for dense gas."
+        "title": "Neurosymbolic Reinforcement Learning and Planning: A Survey",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe field of Neurosymbolic Artificial Intelligence (Neurosymbolic AI) is rapidly developing, with Neurosymbolic Reinforcement Learning (Neurosymbolic RL) being a key component that integrates neural and symbolic approaches to achieve transparency and explainability. This paper conducts a literature survey of Neurosymbolic RL, categorizing works into three taxonomies and analyzing the RL components, identifying research opportunities and challenges in this emerging field.",
+        "url": "http://arxiv.org/abs/2309.01038v1"
+    },
+    {
+        "title": "Relational Neurosymbolic Markov Models",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe authors introduce relational neurosymbolic Markov models (NeSy-MMs), a new class of end-to-end differentiable sequential models that integrate and provably satisfy relational logical constraints. These models can solve problems beyond the current state-of-the-art in neurosymbolic AI, provide strong guarantees, and are more interpretable, with the ability to adapt constraints at test time to out-of-distribution scenarios.",
+        "url": "http://arxiv.org/abs/2412.13023v1"
+    },
+    {
+        "title": "A Complexity Map of Probabilistic Reasoning for Neurosymbolic Classification Techniques",
+        "summary": "Here is a 2-line summary of the abstract:\n\nNeurosymbolic AI combines neural networks with symbolic systems to improve classification, but the scalability of these techniques depends on the complexity of probabilistic reasoning problems. This paper develops a unified formalism for probabilistic reasoning and compiles tractability results to create a complexity map, helping practitioners determine the scalability of neurosymbolic techniques.",
+        "url": "http://arxiv.org/abs/2404.08404v2"
+    },
+    {
+        "title": "Scallop: A Language for Neurosymbolic Programming",
+        "summary": "Here is a 2-line summary of the abstract:\n\nScallop is a language that combines deep learning and logical reasoning, enabling users to write and train neurosymbolic applications efficiently. It achieves this through a flexible symbolic representation, a declarative logic programming language, and a framework for automatic differentiable reasoning, outperforming state-of-the-art models in accuracy, runtime, and other aspects.",
+        "url": "http://arxiv.org/abs/2304.04812v1"
+    },
+    {
+        "title": "On the Promise for Assurance of Differentiable Neurosymbolic Reasoning Paradigms",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThis study evaluates the assurance of end-to-end differentiable neurosymbolic systems, which combine neural networks and symbolic reasoning, across various tasks and domains. The results show that these systems offer unique opportunities for assurance, particularly in cases where arithmetic operations are defined and input spaces are high-dimensional, but also highlight potential trade-offs between interpretability and adversarial robustness.",
+        "url": "http://arxiv.org/abs/2502.08932v1"
+    },
+    {
+        "title": "A Path Less Traveled: Reimagining Software Engineering Automation via a Neurosymbolic Paradigm",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe emergence of Large Code Models has transformed software engineering automation, but comes with trade-offs such as high computational costs and reduced interpretability. Neurosymbolic Software Engineering, a new paradigm, combines neural learning with symbolic reasoning and controlled chaos to enhance efficiency, reliability, and transparency in AI-driven software engineering.",
+        "url": "http://arxiv.org/abs/2505.02275v1"
+    },
+    {
+        "title": "Model-Grounded Symbolic Artificial Intelligence Systems Learning and Reasoning with Model-Grounded Symbolic Artificial Intelligence Systems",
+        "summary": "Here is a 2-line summary of the abstract:\n\nNeurosymbolic AI combines neural networks and symbolic AI to leverage the strengths of both, and this work proposes a new approach to integrate these components using large language models as model-grounded symbolic systems. The approach is evaluated through preliminary experiments on axiomatic deductive reasoning procedures, showing improvements in learning efficiency and reasoning reliability.",
+        "url": "http://arxiv.org/abs/2507.09854v1"
+    },
+    {
+        "title": "On the use of neurosymbolic AI for defending against cyber attacks",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe abstract discusses the need for detecting and responding to cyber attacks, and proposes combining connectionist and symbolic AI using neurosymbolic AI to achieve this. The authors identify challenges and propose use cases for neurosymbolic AI in cyber security, and demonstrate its feasibility through two proof-of-concept experiments.",
+        "url": "http://arxiv.org/abs/2408.04996v1"
     }
 ]

@@ -10,70 +10,91 @@
         {
             "type": "claim",
             "cited": false,
-            "id": "Here is a clear and concise Abstract for a research paper on Neurosymbolic AI for scientific reasoning and automated writing:\n\nAbstract:\n\nThe integration of artificial intelligence (AI) and symbolic reasoning has the potential to revolutionize scientific discovery and communication"
+            "id": "This paper presents a comprehensive overview of neurosymbolic AI in scientific reasoning and automated writing"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "This paper presents a novel approach to neurosymbolic AI, which combines the strengths of neural networks and symbolic reasoning to enable scientific reasoning and automated writing"
+            "id": "A new definition of neurosymbolic inference is introduced, integrating logical and belief functions to enable formal reasoning about propositional logic formulas"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "By leveraging the strengths of both paradigms, our approach can efficiently process and analyze large datasets, identify patterns and relationships, and generate high-quality scientific text"
+            "id": "A simple energy-based neurosymbolic AI system is described, combining learning from data and knowledge with logical reasoning to address challenges of data efficiency, fairness, and safety"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "Our key contributions include the development of a neurosymbolic architecture that can learn from scientific literature and generate coherent and accurate scientific text, and the demonstration of its effectiveness in a range of scientific domains, including astrophysics, computer vision, and molecular physics."
+            "id": "A literature survey of neurosymbolic reinforcement learning is conducted, categorizing works into three taxonomies and analyzing research opportunities and challenges"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "Here is a detailed introduction for the research paper on Neurosymbolic AI for scientific reasoning and automated writing:\n\nThe rapid advancement of artificial intelligence (AI) has revolutionized various fields, including scientific research, by enabling the automation of tasks, such as data analysis and literature review"
+            "id": "Novel models, including relational neurosymbolic Markov models and end-to-end differentiable sequential models, are introduced, providing strong guarantees and interpretability"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "However, the complexity of scientific reasoning and the need for nuanced understanding of scientific concepts have hindered the development of AI systems that can effectively assist scientists in their research endeavors"
+            "id": "A complexity map of probabilistic reasoning is developed, helping practitioners determine the scalability of neurosymbolic techniques"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "In recent years, the emergence of neurosymbolic AI has shown promise in addressing this challenge by combining the strengths of neural networks and symbolic reasoning.\n\nNeurosymbolic AI has been successfully applied in various domains, including natural language processing, computer vision, and robotics"
+            "id": "A language for neurosymbolic programming, Scallop, is introduced, enabling users to write and train neurosymbolic applications efficiently"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "For instance, the detection of a $\u03b3$-ray flare from the high-redshift blazar GB6 B1428+4217, a multiwavelength campaign that involved the Fermi Large Area Telescope and other observatories, demonstrates the power of AI in analyzing complex scientific data [1]"
+            "id": "The promise of assurance of differentiable neurosymbolic reasoning paradigms is evaluated, highlighting opportunities and trade-offs"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "Similarly, the development of HairCUP, a Hair Compositional Universal Prior for 3D Gaussian Avatars, showcases the potential of AI in generating realistic and controllable 3D head avatars [2].\n\nHowever, the application of neurosymbolic AI in scientific reasoning and automated writing remains a relatively unexplored area"
+            "id": "Finally, the potential of neurosymbolic AI in software engineering automation, cyber security, and model-grounded symbolic artificial intelligence systems is explored, demonstrating its feasibility and promising applications."
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "The estimation of the ionization fraction in dense and translucent molecular gas, as demonstrated in the study \"Tracers of the ionization fraction in dense and translucent molecular gas: II"
+            "id": "The integration of artificial intelligence (AI) and symbolic reasoning has long been a topic of interest in the field of AI research"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "Using mm observations to constrain ionization fraction across Orion B,\" highlights the need for AI systems that can analyze complex scientific data and provide insights that are difficult to obtain through manual analysis [3].\n\nThis paper aims to investigate the potential of neurosymbolic AI in scientific reasoning and automated writing"
+            "id": "Neurosymbolic AI, in particular, has gained significant attention in recent years due to its potential to combine the strengths of both neural networks and symbolic systems"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "Specifically, we will explore the application of neurosymbolic AI in analyzing complex scientific data, generating scientific reports, and providing insights that are difficult to obtain through manual analysis"
+            "id": "However, despite its promise, neurosymbolic AI still lacks a formal definition, and its applications in scientific reasoning and automated writing remain largely unexplored.\n\nIn this paper, we aim to address this gap by introducing a new definition of neurosymbolic inference and exploring its applications in scientific reasoning and automated writing"
         },
         {
             "type": "claim",
             "cited": false,
-            "id": "We will also discuss the challenges and limitations of neurosymbolic AI in scientific research and propose potential solutions to address these challenges.\n\nReferences:\n\n[1] The Fermi Large Area Telescope detected a gamma-ray flare from the high-redshift blazar GB6 B1428+4217, which was followed up with multi-wavelength observations revealing a Compton-dominated spectral energy distribution and a hard X-ray flux enhancement.\n\n[2] HairCUP, a Hair Compositional Universal Prior for 3D Gaussian Avatars, proposes a new approach to generating 3D head avatars that explicitly accounts for the compositionality of face and hair.\n\n[3] The ionization fraction in interstellar gas is estimated by analyzing molecular lines in the 3-4 mm range, revealing ranges of 10^-5.5 to 10^-4 in translucent gas and 10^-8 to 10^-6 in dense gas."
+            "id": "We define neurosymbolic inference as the computation of an integral over a product of a logical and a belief function, which allows for the integration of logical and neural representations"
         },
         {
+            "type": "concept",
             "id": "model"
+        },
+        {
+            "type": "claim",
+            "cited": false,
+            "id": "This definition provides a formal foundation for neurosymbolic AI and enables the development of novel algorithms and systems that can leverage the strengths of both neural networks and symbolic systems.\n\nOur work builds upon recent advances in neurosymbolic AI, including the development of energy-based neurosymbolic AI systems that can represent and reason formally about any propositional logic formula, and the of relational neurosymbolic Markov models that can solve problems beyond the current state-of-the-art in neurosymbolic AI"
+        },
+        {
+            "type": "claim",
+            "cited": false,
+            "id": "We also draw inspiration from the field of neurosymbolic reinforcement learning and planning, which has shown promise in integrating neural and symbolic approaches to achieve transparency and explainability.\n\nIn this paper, we explore the potential of neurosymbolic AI in scientific reasoning and automated writing, and demonstrate its feasibility through a series of and case studies"
+        },
+        {
+            "type": "claim",
+            "cited": false,
+            "id": "We also identify challenges and limitations of neurosymbolic AI and propose future research directions to address these challenges"
+        },
+        {
+            "type": "claim",
+            "cited": false,
+            "id": "Our contributions include a new definition of neurosymbolic inference, a novel algorithm for neurosymbolic reasoning, and a series of and case studies that demonstrate the potential of neurosymbolic AI in scientific reasoning and automated writing.\n\nOverall, this paper aims to provide a comprehensive overview of the current state of neurosymbolic AI and its applications in scientific reasoning and automated writing, and to inspire future research in this exciting and rapidly developing field."
         }
     ],
     "links": [
