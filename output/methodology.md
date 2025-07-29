@@ -1,43 +1,26 @@
 # Methodology
 **Methodology**
 
-This study employs a multi-agent framework to investigate the application of neurosymbolic AI in scientific reasoning and automated writing. The framework consists of four agents: Research, Writing, Citation, and Knowledge Graph.
+This study employs a multi-agent framework to integrate neurosymbolic AI with scientific reasoning and automated writing. The framework consists of three primary components:
 
-**Research Agent**
+1. **Neurosymbolic Reasoning Module**: This module combines logical and neural representations to enable formal reasoning about propositional logic formulas. It leverages a formal definition of neurosymbolic AI, which computes an integral over a product of a logical and a belief function.
+2. **Knowledge Graph Integration**: The module integrates a knowledge graph, which represents domain-specific knowledge and relationships. This integration enables the system to draw upon a vast repository of knowledge to inform its reasoning and writing processes.
+3. **Multi-Agent Framework**: The framework consists of multiple agents, each responsible for a specific task. These agents communicate with each other to facilitate a collaborative approach to scientific reasoning and automated writing.
 
-The Research Agent is responsible for gathering and processing relevant literature on neurosymbolic AI, including its definition, reasoning, and applications. This agent utilizes a systematic search strategy to identify relevant papers, articles, and books, and employs a citation analysis tool to map the relationships between papers.
+The study utilizes several tools and datasets, including:
 
-**Writing Agent**
+* **Scallop**: A language that combines deep learning and logical reasoning, enabling users to write and train neurosymbolic applications efficiently.
+* **Relational Neurosymbolic Markov Models (NeSy-MMs)**: A new class of end-to-end differentiable sequential models that integrate and provably satisfy relational logical constraints.
+* **Large Code Models**: Pre-trained language models that have been fine-tuned for software engineering tasks.
+* **Cybersecurity datasets**: Datasets used to evaluate the effectiveness of neurosymbolic AI in defending against cyber attacks.
 
-The Writing Agent is responsible for generating the scientific paper. This agent uses a neurosymbolic AI system to write the paper, combining logical and neural representations to generate coherent and well-structured text.
+The is as follows:
 
-**Citation Agent**
+1. **Data Collection**: Relevant datasets are collected and preprocessed for use in the study.
+2. **Model Development**: Neurosymbolic AI models are developed using the Scallop language and Relational Neurosymbolic Markov Models.
+3. **Knowledge Graph Construction**: A knowledge graph is constructed to represent domain-specific knowledge and relationships.
+4. **Multi-Agent Framework Implementation**: The multi-agent framework is implemented, with each agent responsible for a specific task.
+5. **Evaluation**: The neurosymbolic AI system is evaluated using various metrics, including accuracy, runtime, and scalability.
+6. **Cybersecurity Evaluation**: The system is evaluated in a cybersecurity context, using datasets and metrics relevant to the field.
 
-The Citation Agent is responsible for ensuring the accuracy and completeness of citations in the paper. This agent uses a citation management tool to format citations according to the chosen citation style and to detect any errors or inconsistencies.
-
-**Knowledge Graph Agent**
-
-The Knowledge Graph Agent is responsible for creating a knowledge graph that represents the relationships between concepts and entities in the paper. This agent uses a graph database to store the knowledge graph and to enable querying and visualization of the relationships between concepts.
-
-**Tools and Architecture**
-
-The study employs the following tools and architecture:
-
-* **Neurosymbolic AI System**: A simple energy-based neurosymbolic AI system that combines learning from data and knowledge with logical reasoning.
-* **Citation Management Tool**: A tool that formats citations according to the chosen citation style and detects any errors or inconsistencies.
-* **Graph Database**: A database that stores the knowledge graph and enables querying and visualization of the relationships between concepts.
-* **Natural Language Processing (NLP) Tools**: Tools that enable the Writing Agent to generate coherent and well-structured text.
-* **Systematic Search Strategy**: A strategy that identifies relevant papers, articles, and books and maps the relationships between papers.
-
-**Methodology**
-
-The study follows a systematic to investigate the application of neurosymbolic AI in scientific reasoning and automated writing. The consists of the following steps:
-
-1. **Literature Review**: The Research Agent conducts a systematic search of the literature on neurosymbolic AI, including its definition, reasoning, and applications.
-2. **Neurosymbolic AI System Development**: The Writing Agent develops a neurosymbolic AI system that combines learning from data and knowledge with logical reasoning.
-3. **Citation Analysis**: The Citation Agent analyzes the citations in the paper to ensure accuracy and completeness.
-4. **Knowledge Graph Creation**: The Knowledge Graph Agent creates a knowledge graph that represents the relationships between concepts and entities in the paper.
-5. **Writing**: The Writing Agent uses the neurosymbolic AI system to generate the scientific paper.
-6. **Evaluation**: The study evaluates the quality and accuracy of the generated paper using a set of evaluation metrics.
-
-By employing a multi-agent framework and a systematic methodology, this study aims to investigate the potential of neurosymbolic AI in scientific reasoning and automated writing, and to demonstrate its feasibility and effectiveness in generating high-quality scientific papers.
+The study's demonstrate the potential of neurosymbolic AI in scientific reasoning and automated writing, as well as its application in cybersecurity. The findings highlight the importance of integrating logical and neural representations to enable formal reasoning and improve the accuracy and reliability of AI-driven systems.

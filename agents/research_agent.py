@@ -34,6 +34,7 @@ class ResearchAgent(BaseAgent):
                 "title": result.title.strip(),
                 "abstract": result.summary.strip(),
                 "authors": [author.name for author in result.authors],
+                "published": str(result.published.date()),
                 "url": result.entry_id
             })
         return papers
@@ -68,6 +69,8 @@ class ResearchAgent(BaseAgent):
             summarized_papers.append({
                 "title": paper["title"],
                 "summary": summary,
+                "authors": paper["authors"],
+                "published": paper["published"],
                 "url": paper["url"]
             })
 

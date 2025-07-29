@@ -1,52 +1,120 @@
 [
     {
         "title": "Defining neurosymbolic AI",
-        "summary": "Here is a 2-line summary of the abstract:\n\nNeurosymbolic AI aims to combine learning and reasoning by integrating logical and neural representations, but lacks a formal definition. The authors introduce a new definition that defines neurosymbolic inference as the computation of an integral over a product of a logical and a belief function.",
+        "summary": "Here is a 2-line summary of the abstract:\n\nNeurosymbolic AI aims to integrate learning and reasoning by combining logical and neural representations, but lacks a universally accepted definition. The authors propose a formal definition of neurosymbolic AI, which they define as the computation of an integral over a product of a logical and a belief function.",
+        "authors": [
+            "Lennert De Smet",
+            "Luc De Raedt"
+        ],
+        "published": "2025-07-15",
         "url": "http://arxiv.org/abs/2507.11127v1"
     },
     {
         "title": "Reasoning in Neurosymbolic AI",
-        "summary": "Here is a 2-line summary of the abstract:\n\nThe chapter describes a simple energy-based neurosymbolic AI system that can represent and reason formally about any propositional logic formula, combining learning from data and knowledge with logical reasoning. The system addresses challenges of data efficiency, fairness, and safety of Large Language Models and promotes the principled integration of reasoning and learning in deep networks.",
+        "summary": "Here is a 2-line summary of the abstract:\n\nA neurosymbolic AI system is proposed that can represent and reason formally about any propositional logic formula, combining learning from data and knowledge with logical reasoning. This system addresses challenges in data efficiency, fairness, and safety of Large Language Models and has the potential to promote the principled integration of reasoning and learning in deep networks.",
+        "authors": [
+            "Son Tran",
+            "Edjard Mota",
+            "Artur d'Avila Garcez"
+        ],
+        "published": "2025-05-22",
         "url": "http://arxiv.org/abs/2505.20313v1"
     },
     {
         "title": "Neurosymbolic Reinforcement Learning and Planning: A Survey",
-        "summary": "Here is a 2-line summary of the abstract:\n\nThe field of Neurosymbolic Artificial Intelligence (Neurosymbolic AI) is rapidly developing, with Neurosymbolic Reinforcement Learning (Neurosymbolic RL) being a key component that integrates neural and symbolic approaches to achieve transparency and explainability. This paper conducts a literature survey of Neurosymbolic RL, categorizing works into three taxonomies and analyzing the RL components, identifying research opportunities and challenges in this emerging field.",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe abstract discusses the emerging field of Neurosymbolic Reinforcement Learning (Neurosymbolic RL), which combines the benefits of traditional reinforcement learning with the transparency and explainability of symbolic AI. The paper conducts a literature survey of Neurosymbolic RL, categorizing works into three taxonomies and analyzing the RL components of each research work to identify research opportunities and challenges.",
+        "authors": [
+            "K. Acharya",
+            "W. Raza",
+            "C. M. J. M. Dourado Jr",
+            "A. Velasquez",
+            "H. Song"
+        ],
+        "published": "2023-09-02",
         "url": "http://arxiv.org/abs/2309.01038v1"
     },
     {
         "title": "Relational Neurosymbolic Markov Models",
-        "summary": "Here is a 2-line summary of the abstract:\n\nThe authors introduce relational neurosymbolic Markov models (NeSy-MMs), a new class of end-to-end differentiable sequential models that integrate and provably satisfy relational logical constraints. These models can solve problems beyond the current state-of-the-art in neurosymbolic AI, provide strong guarantees, and are more interpretable, with the ability to adapt constraints at test time to out-of-distribution scenarios.",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe authors introduce relational neurosymbolic Markov models (NeSy-MMs), a new class of end-to-end differentiable sequential models that integrate and provably satisfy relational logical constraints. These models can solve problems beyond the current state-of-the-art in neurosymbolic AI and provide strong guarantees with respect to desired properties, while also being more interpretable and adaptable to out-of-distribution scenarios.",
+        "authors": [
+            "Lennert De Smet",
+            "Gabriele Venturato",
+            "Luc De Raedt",
+            "Giuseppe Marra"
+        ],
+        "published": "2024-12-17",
         "url": "http://arxiv.org/abs/2412.13023v1"
     },
     {
         "title": "A Complexity Map of Probabilistic Reasoning for Neurosymbolic Classification Techniques",
-        "summary": "Here is a 2-line summary of the abstract:\n\nNeurosymbolic AI combines neural networks with symbolic systems to improve classification, but the scalability of these techniques depends on the complexity of probabilistic reasoning problems. This paper develops a unified formalism for probabilistic reasoning and compiles tractability results to create a complexity map, helping practitioners determine the scalability of neurosymbolic techniques.",
+        "summary": "Here is a 2-line summary of the abstract:\n\nNeurosymbolic AI aims to combine neural networks with symbolic systems to improve classification, and informed multi-label classification is a sub-field that leverages prior knowledge to enhance neural classification. This paper develops a unified formalism for probabilistic reasoning problems and creates a complexity map to assess the scalability of neurosymbolic techniques, helping practitioners navigate the scalability landscape.",
+        "authors": [
+            "Arthur Ledaguenel",
+            "C\u00e9line Hudelot",
+            "Mostepha Khouadjia"
+        ],
+        "published": "2024-04-12",
         "url": "http://arxiv.org/abs/2404.08404v2"
     },
     {
         "title": "Scallop: A Language for Neurosymbolic Programming",
         "summary": "Here is a 2-line summary of the abstract:\n\nScallop is a language that combines deep learning and logical reasoning, enabling users to write and train neurosymbolic applications efficiently. It achieves this through a flexible symbolic representation, a declarative logic programming language, and a framework for automatic differentiable reasoning, outperforming state-of-the-art models in accuracy, runtime, and other aspects.",
+        "authors": [
+            "Ziyang Li",
+            "Jiani Huang",
+            "Mayur Naik"
+        ],
+        "published": "2023-04-10",
         "url": "http://arxiv.org/abs/2304.04812v1"
     },
     {
         "title": "On the Promise for Assurance of Differentiable Neurosymbolic Reasoning Paradigms",
-        "summary": "Here is a 2-line summary of the abstract:\n\nThis study evaluates the assurance of end-to-end differentiable neurosymbolic systems, which combine neural networks and symbolic reasoning, across various tasks and domains. The results show that these systems offer unique opportunities for assurance, particularly in cases where arithmetic operations are defined and input spaces are high-dimensional, but also highlight potential trade-offs between interpretability and adversarial robustness.",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThis study evaluates the assurance of end-to-end fully differentiable neurosymbolic systems, which combine artificial neural networks with symbolic reasoning, across various tasks and domains. The results show that these systems offer unique opportunities for assurance, particularly in cases where arithmetic operations are defined and input spaces are high-dimensional, but also highlight potential trade-offs between interpretability and adversarial vulnerability.",
+        "authors": [
+            "Luke E. Richards",
+            "Jessie Yaros",
+            "Jasen Babcock",
+            "Coung Ly",
+            "Robin Cosbey",
+            "Timothy Doster",
+            "Cynthia Matuszek"
+        ],
+        "published": "2025-02-13",
         "url": "http://arxiv.org/abs/2502.08932v1"
     },
     {
         "title": "A Path Less Traveled: Reimagining Software Engineering Automation via a Neurosymbolic Paradigm",
-        "summary": "Here is a 2-line summary of the abstract:\n\nThe emergence of Large Code Models has transformed software engineering automation, but comes with trade-offs such as high computational costs and reduced interpretability. Neurosymbolic Software Engineering, a new paradigm, combines neural learning with symbolic reasoning and controlled chaos to enhance efficiency, reliability, and transparency in AI-driven software engineering.",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe emergence of Large Code Models has transformed software engineering automation, but it comes with trade-offs such as high computational costs and reduced interpretability. Neurosymbolic Software Engineering, a new paradigm, combines neural learning with symbolic reasoning and introduces controlled chaos to enhance efficiency, reliability, and transparency in AI-driven software engineering.",
+        "authors": [
+            "Antonio Mastropaolo",
+            "Denys Poshyvanyk"
+        ],
+        "published": "2025-05-04",
         "url": "http://arxiv.org/abs/2505.02275v1"
     },
     {
         "title": "Model-Grounded Symbolic Artificial Intelligence Systems Learning and Reasoning with Model-Grounded Symbolic Artificial Intelligence Systems",
-        "summary": "Here is a 2-line summary of the abstract:\n\nNeurosymbolic AI combines neural networks and symbolic AI to leverage the strengths of both, and this work proposes a new approach to integrate these components using large language models as model-grounded symbolic systems. The approach is evaluated through preliminary experiments on axiomatic deductive reasoning procedures, showing improvements in learning efficiency and reasoning reliability.",
+        "summary": "Here is a 2-line summary of the abstract:\n\nNeurosymbolic AI combines neural networks and symbolic AI to leverage strengths in learning and reasoning. This work reinterprets large language models as model-grounded symbolic AI systems, allowing for novel learning and reasoning approaches that improve efficiency and reliability.",
+        "authors": [
+            "Aniruddha Chattopadhyay",
+            "Raj Dandekar",
+            "Kaushik Roy"
+        ],
+        "published": "2025-07-14",
         "url": "http://arxiv.org/abs/2507.09854v1"
     },
     {
         "title": "On the use of neurosymbolic AI for defending against cyber attacks",
-        "summary": "Here is a 2-line summary of the abstract:\n\nThe abstract discusses the need for detecting and responding to cyber attacks, and proposes combining connectionist and symbolic AI using neurosymbolic AI to achieve this. The authors identify challenges and propose use cases for neurosymbolic AI in cyber security, and demonstrate its feasibility through two proof-of-concept experiments.",
+        "summary": "Here is a 2-line summary of the abstract:\n\nThe abstract argues that while all cyber attacks cannot be prevented, combining connectionist and symbolic AI using neurosymbolic AI can improve detection and response capabilities. The authors propose several neurosymbolic use cases and demonstrate feasibility through two proof-of-concept experiments, highlighting potential research directions and impact on the cybersecurity field.",
+        "authors": [
+            "Gudmund Grov",
+            "Jonas Halvorsen",
+            "Magnus Wiik Eckhoff",
+            "Bj\u00f8rn Jervell Hansen",
+            "Martin Eian",
+            "Vasileios Mavroeidis"
+        ],
+        "published": "2024-08-09",
         "url": "http://arxiv.org/abs/2408.04996v1"
     }
 ]
