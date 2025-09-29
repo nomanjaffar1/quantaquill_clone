@@ -15,22 +15,22 @@ class Coordinator:
         self.kg = KnowledgeGraph()
 
     def run_pipeline(self, topic, user_methodology=None, user_experiments=None):
-        print("\n🔍 [Step 1] Researching...")
+        print("\n [Step 1] Researching...")
         self.research_agent.execute(topic)
 
-        print("\n🖋 [Step 2] Writing structured sections...")
+        print("\n [Step 2] Writing structured sections...")
         sections = self.writing_agent.execute(topic, user_methodology, user_experiments)
 
-        print("\n📚 [Step 3] Adding initial citations...")
+        print("\n [Step 3] Adding initial citations...")
         self.citation_agent.execute()
 
-        print("\n🔗 [Step 4] Building Knowledge Graph and validating...")
+        print("\n [Step 4] Building Knowledge Graph and validating...")
         self.build_knowledge_graph(sections)
 
-        print("\n📄 [Step 5] Assembling full paper...")
+        print("\n [Step 5] Assembling full paper...")
         self.assemble_final_paper()
 
-        print("\n📝 [Step 6] Exporting PDF...")
+        print("\n [Step 6] Exporting PDF...")
         self.export_pdf()
 
         return "output/full_paper.pdf"
@@ -59,16 +59,16 @@ class Coordinator:
         with open("output/full_paper.md", "w", encoding="utf-8") as f:
             f.write(combined_content)
 
-        print("✅ Full paper assembled cleanly at output/full_paper.md")
+        print("Full paper assembled cleanly at output/full_paper.md")
 
     def export_pdf(self):
         input_file = "output/full_paper.md"
         output_file = "output/full_paper.pdf"
         try:
             subprocess.run(f"markdown-pdf {input_file} -o {output_file}", shell=True, check=True)
-            print(f"✅ PDF exported successfully: {output_file}")
+            print(f"PDF exported successfully: {output_file}")
         except subprocess.CalledProcessError as e:
-            print(f"⚠️ PDF export failed: {e}")
+            print(f"PDF export failed: {e}")
 
     def build_knowledge_graph(self, sections):
         abstract = sections.get("abstract", "")
@@ -98,4 +98,4 @@ class Coordinator:
             self.assemble_final_paper()
             self.export_pdf()
         else:
-            print("\n✅ No validation issues found.")
+            print("\nNo validation issues found.")
