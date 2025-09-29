@@ -117,4 +117,4 @@ Return only index numbers separated by commas (e.g., 1,3).
             with open(f"output/{section_name}.md", "w", encoding="utf-8") as f:
                 f.write(f"# {section_name.capitalize()}\n" + text)
 
-        print("✅ Missing citations fixed and updated in text.")
+        print(" Missing citations fixed and updated in text.")
